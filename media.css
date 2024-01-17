@@ -1,0 +1,344 @@
+@media (max-width: 767px) {
+    .container {
+        margin: 0 0px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        display: flex;
+    }
+
+    header .links {
+        position: relative;
+    }
+
+    header .links .ICONS {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 2px;
+    }
+
+    header .links .ICONS span {
+        background-color: #333;
+        margin-bottom: 5px;
+        height: 2px;
+        width: 30px;
+    }
+
+    header .links ul {
+        flex-direction: column;
+        list-style: none;
+        margin: 0;
+        padding: 20px;
+        background-color: #f6f6f6;
+        position: absolute;
+        right: 0;
+        min-width: 200px;
+        top: calc(100% + 15px);
+        display: none;
+        z-index: 1;
+    }
+
+    header .links .ICONS:hover + ul {
+        display: block;
+    }
+
+    .header .links ul li a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        color: #333;
+        transition: var(--main-duration);
+    }
+}
+
+@media (max-width: 767px) {
+
+    header button {
+      padding: 5px 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bio {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  
+    .bio .ALL {
+      max-width: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bio h1 {
+      font-size: 30px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .bio h1 span {
+      font-size: 30px;
+    }
+  
+    .bio button {
+      margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bio .IMG {
+      width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .all-data {
+      display: flex;
+    }
+    
+    .DATA {
+      display: flex;
+      flex-direction: column;
+      padding: 20px 0px;
+    }
+    
+    .DATA div:nth-of-type(2) {
+      border-bottom: 2px solid #eeeff2;
+      border-top: 2px solid #eeeff2;
+      border-left: none;
+      border-right: none;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .Features > img {
+      width: 100%;
+      padding-bottom: 15px;
+    }
+  
+    .Features .all {
+      display: grid;
+      row-gap: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .plan {
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 70px;
+    }
+
+    .bettwen {
+      margin: 0 auto;
+      width: fit-content;
+    }
+}
+
+@media (max-width: 767px) {
+    .map img {
+      width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .cards {
+      max-width: 320px;
+      display: grid;
+    }
+  
+    .card {
+      max-width: 310px;
+    }
+
+    .ICON {
+      justify-content: space-evenly;
+      align-items: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .JOIN {
+      position: relative;
+      max-width: 320px;
+      margin-top: 30px;
+    }
+
+    .JOIN h2 {
+      font-size: 22px;
+    }
+    
+    .join {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .join button {
+      padding: 10px 20px;
+      margin-top: 15px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    footer {
+      background: #F8F8F8;
+      padding: 170px 0px ;
+      padding-top: 230px;
+      padding-bottom: 0px;
+      margin-top: 150px;
+    }
+    
+    footer div div div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      padding-bottom: 20px;
+    }
+    
+    footer div div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .all {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .column .line {
+      padding-bottom: 1px;
+    }
+    
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 70px;
+      margin: 20px;
+    }
+    
+    .column {
+      flex-direction: column;
+      align-items: flex-start;
+      min-height: 350px;
+    }
+    
+    .NO3 {
+      margin-left: 0px;
+      min-height: 200px;
+    }
+  
+    #SPAN {
+      margin-left: 40px;
+      color: #AFB5C0;
+      text-align: center;
+      font-family: Rubik;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+    }
+
+    #SPAN span {
+        color: #AFB5C0;
+        font-family: Rubik;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+    }
+}
+
+/*****************************************************************/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding: 30px 20px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .bio .IMG {
+    max-width: 100%;
+  }
+  .bio .ALL {
+    max-width: 360px;
+  }
+  .bio {
+    gap: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Features > img {
+    max-width: 100%;
+  }
+
+  .Features {
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+  .Features .all {
+    gap: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .plan {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .map img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cards {
+    display: grid;
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .card {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ICON {
+    align-items: center;
+    padding: 60px 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .join {
+    max-width: 650px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  footer {
+    padding: 230px 20px 0px;
+  }
+}
+
+
